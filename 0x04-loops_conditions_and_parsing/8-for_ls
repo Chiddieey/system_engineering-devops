@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# Displays filenames after the first dash using a for loop
+# Displays the part of each filename after the first dash or full name if no dash
 
-for file in *-*; do
+for file in *; do
+  [ -f "$file" ] || continue
   echo "${file#*-}"
 done
