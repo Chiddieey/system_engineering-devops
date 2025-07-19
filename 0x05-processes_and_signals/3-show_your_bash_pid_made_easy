@@ -1,2 +1,3 @@
-#!/bin/bash
-echo "$BASHPID"
+#!/usr/bin/env bash
+# Display PID and process name for all processes with "bash" in their name
+pgrep bash | while read pid; do echo "$pid $(ps -p $pid -o comm=)"; done
