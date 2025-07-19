@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Loops forever and prints a message every 2 seconds
+while true; do echo "To infinity and beyond"; sleep 2; done
