@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-# Displays all running processes with full start time
-ps -eo user,lstart,command
+ps -eo user
 
