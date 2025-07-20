@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-# Displays the PID and name of the process with the most open files
+# Script that displays message on SIGTERM
 
-lsof -n | awk '{print $2}' | sort | uniq -c | sort -nr | head -n 1 | while read -r _ pid; do ps -p "$pid" -o pid=,comm=; done
+trap 'echo I am invincible!!!' SIGTERM
+while true; do sleep 1; done
