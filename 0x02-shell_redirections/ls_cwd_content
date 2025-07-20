@@ -1,15 +1,14 @@
-total 88
--rw-r--r--   1 apple  staff   12 Jun 26 23:06 *\'"Best School"\'\*$\?\*\*\*\*\*:)
-drwxr-xr-x  14 apple  staff  448 Jun 26 23:08 .
-drwxr-xr-x   8 apple  staff  256 Jun 26 22:37 ..
--rwxr-xr-x   1 apple  staff   33 Jun 26 22:38 0-hello_world
--rwxr-xr-x   1 apple  staff   29 Jun 26 22:40 1-confused_smiley
--rwxr-xr-x   1 apple  staff   29 Jun 26 22:42 2-hellofile
--rwxr-xr-x   1 apple  staff   40 Jun 26 22:43 3-twofiles
--rwxr-xr-x   1 apple  staff   30 Jun 26 22:46 4-lastlines
--rwxr-xr-x   1 apple  staff   30 Jun 26 23:01 5-firstlines
--rwxr-xr-x   1 apple  staff   42 Jun 26 23:02 6-third_line
--rwxr-xr-x   1 apple  staff   77 Jun 26 23:06 7-file
--rwxr-xr-x   1 apple  staff   38 Jun 26 23:08 8-cwd_state
+total 80
+drwxr-xr-x  13 apple  staff  416 Jul 20 20:03 .
+drwxr-xr-x  16 apple  staff  512 Jul 19 10:59 ..
+-rwxr-xr-x   1 apple  staff   32 Jun 30 20:46 0-hello_world
+-rwxr-xr-x   1 apple  staff   29 Jul 20 19:39 1-confused_smiley
+-rwxr-xr-x   1 apple  staff   28 Jun 30 21:33 2-hellofile
+-rwxr-xr-x   1 apple  staff   39 Jun 30 21:36 3-twofiles
+-rwxr-xr-x   1 apple  staff   29 Jun 30 21:39 4-lastlines
+-rwxr-xr-x   1 apple  staff   29 Jun 30 21:41 5-firstlines
+-rwxr-xr-x   1 apple  staff   40 Jul 20 19:44 6-third_line
+-rwxr-xr-x   1 apple  staff   36 Jul 20 20:06 7-file
+-rw-r--r--   1 apple  staff   44 Jun 30 20:47 README.md
 -rw-r--r--   1 apple  staff  137 Jun 26 23:04 iacta
--rw-r--r--   1 apple  staff    0 Jun 26 23:08 ls_cwd_content
+-rw-r--r--   1 apple  staff    0 Jul 20 20:07 ls_cwd_content
