@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# Displays process with most open FDs (PID CMD)
-lsof -n | grep -E '^[a-zA-Z]' | awk '{print $2}' | sort | uniq -c | sort -nr | head -n 1 | while read count pid; do ps -p "$pid" -o pid=,comm=; done
+# Displays the PID and name of the process with the most open files
+
+lsof -n | awk '{print $2}' | sort | uniq -c | sort -nr | head -n 1 | while read -r _ pid; do ps -p "$pid" -o pid=,comm=; done
