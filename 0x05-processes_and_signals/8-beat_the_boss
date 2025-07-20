@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Monitors 7-highlander and kills duplicates except self
+pgrep -f 7-highlander | grep -v "^$$\$" | while read -r pid; do kill "$pid"; done
